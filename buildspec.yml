@@ -10,6 +10,7 @@ phases:
         runtime-versions:
             nodejs: 12
         commands:
+            - echo "Hey, welcom to AWS $name"
             - echo "Running on $MY_AWS_REGION"
             - echo "Print Environment Variables"
             - printenv
